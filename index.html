@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    
+    
+    <title>Passinho do Romano</title>
+    
+</head>
+<body>
+    <h1>Criptografar</h1>
+    
+    <form action="" id="formulario">
+        <fieldset>
+            <label for="texto">Digite o texto aqui: </label>
+            <input type="text" id="texto">
+            <br>
+            <br>
+            <select name="option" id="select">
+                <option value="0">Selecione</option>
+                <option value="1" id="cifra">Cifra de César</option>
+                <option value="2" id="base">Base 64</option>
+            </select>
+            <br>
+            <br>
+            <div id="divIncremento">
+                <label for="">Digite o incremento (1 a 25): </label>
+                <input type="number" min="1" max="25" value="3" name="" id="incremento">
+            </div>
+            <br>
+            <br>
+            <input type="radio" id="radioCodificar" name="btn" value="4">
+            <label for="radioCodificar">Codificar Mensagem !</label>
+            
+            <br>
+            <input type="radio" id="radioDecodificar" name="btn" value="5">
+            <label for="radioDecodificar">Decodificar Mensagem !</label>
+            <br>
+            <br>
+            <div>
+                <button type="submit" value="6" id="btnEnviar"> Enviar </button>
+            </div>
+            <br>
+            <br>
+
+            <textarea id="textArea" name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+    </form>
+<script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+body {
+    background-image: url(./img/wallpapertip_roman-empire-wallpaper_540079.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Inconsolata', monospace;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    margin-top: 73px;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 190px 0px;
+    
+}
+
+fieldset{
+    border: 3px solid black;
+    margin: 15px 0px;
+    padding: 15px 15px;
+}
